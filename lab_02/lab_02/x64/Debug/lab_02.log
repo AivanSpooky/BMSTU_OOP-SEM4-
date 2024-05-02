@@ -1,0 +1,665 @@
+﻿  base_vector.cpp
+  lab_02.cpp
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(21,18): error C2062: тип "Iterator<T>" не требуется
+  (компиляция исходного файла "lab_02.cpp")
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(21,18):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(250,2):
+  	выполняется компиляция ссылки на экземпляр класс шаблон функции "Vector<T>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(21,29): error C2238: непредвиденные лексемы перед ";"
+  (компиляция исходного файла "lab_02.cpp")
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(21,18): error C2062: тип "Iterator<T>" не требуется
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(21,18): error C2062:         with
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(21,18): error C2062:         [
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(21,18): error C2062:             T=double
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(21,18): error C2062:         ]
+  (компиляция исходного файла "lab_02.cpp")
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(21,18):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,20):
+  	выполняется компиляция ссылки на экземпляр класс шаблон функции "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,35): error C2248: Vector<double>::Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(162,12):
+   см. объявление "Vector<double>::Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,35): error C2248: Vector<double>::~Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(72,14):
+   см. объявление "Vector<double>::~Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(21,18): error C2062: тип "Iterator<T>" не требуется
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(21,18): error C2062:         with
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(21,18): error C2062:         [
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(21,18): error C2062:             T=int
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(21,18): error C2062:         ]
+  (компиляция исходного файла "lab_02.cpp")
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(21,18):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(14,23):
+  	выполняется компиляция ссылки на экземпляр класс шаблон функции "Vector<int>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(14,35): error C2248: Vector<int>::Vector: невозможно обратиться к private член, объявленному в классе "Vector<int>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(162,12):
+   см. объявление "Vector<int>::Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(14,11):
+   см. объявление "Vector<int>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(14,35): error C2248: Vector<int>::~Vector: невозможно обратиться к private член, объявленному в классе "Vector<int>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(72,14):
+   см. объявление "Vector<int>::~Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(14,11):
+   см. объявление "Vector<int>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(21,18): error C2062: тип "Iterator<T>" не требуется
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(21,18): error C2062:         with
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(21,18): error C2062:         [
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(21,18): error C2062:             T=float
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(21,18): error C2062:         ]
+  (компиляция исходного файла "lab_02.cpp")
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(21,18):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(15,19):
+  	выполняется компиляция ссылки на экземпляр класс шаблон функции "Vector<float>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(15,29): error C2248: Vector<float>::Vector: невозможно обратиться к private член, объявленному в классе "Vector<float>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(47,5):
+   см. объявление "Vector<float>::Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(15,5):
+   см. объявление "Vector<float>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(15,31): error C2248: Vector<float>::~Vector: невозможно обратиться к private член, объявленному в классе "Vector<float>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(72,14):
+   см. объявление "Vector<float>::~Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(15,5):
+   см. объявление "Vector<float>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(16,34): error C2248: Vector<double>::Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(49,5):
+   см. объявление "Vector<double>::Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(16,52): error C2248: Vector<double>::~Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(72,14):
+   см. объявление "Vector<double>::~Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(17,31): error C2248: Vector<double>::Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(47,5):
+   см. объявление "Vector<double>::Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(17,33): error C2248: Vector<double>::~Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(72,14):
+   см. объявление "Vector<double>::~Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(18,52): error C2248: Vector<double>::begin: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(33,14):
+   см. объявление "Vector<double>::begin"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(18,76): error C2248: Vector<double>::end: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(34,14):
+   см. объявление "Vector<double>::end"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(18,36): error C2248: Vector<double>::Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(49,5):
+   см. объявление "Vector<double>::Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(18,84): error C2248: Vector<double>::~Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(72,14):
+   см. объявление "Vector<double>::~Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(19,49): error C2248: Vector<double>::begin: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(33,14):
+   см. объявление "Vector<double>::begin"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(19,77): error C2248: Vector<double>::end: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(34,14):
+   см. объявление "Vector<double>::end"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(19,33): error C2248: Vector<double>::Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(49,5):
+   см. объявление "Vector<double>::Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(19,82): error C2248: Vector<double>::~Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(72,14):
+   см. объявление "Vector<double>::~Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(20,46): error C2248: Vector<double>::begin: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(33,14):
+   см. объявление "Vector<double>::begin"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(20,30): error C2248: Vector<double>::Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(49,5):
+   см. объявление "Vector<double>::Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(20,56): error C2248: Vector<double>::~Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(72,14):
+   см. объявление "Vector<double>::~Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(22,26): error C2665: "Vector<double>::Vector": ни одна перегруженная функция не может преобразовать все типы аргументов
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(47,5):
+  может быть "Vector<double>::Vector(Vector<double>::size_type)"
+  	C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(22,26):
+  	"Vector<double>::Vector(Vector<double>::size_type)": невозможно преобразовать аргумент 1 из "std::array<double,3>" в "Vector<double>::size_type"
+  		C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(22,27):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(69,5):
+  или       "Vector<double>::Vector(const C &)"
+  	C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(22,26):
+  	связанные ограничения не соблюдаются
+  		C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(275,11):
+  		концепция "ConvertibleContainer<std::array<double,3>,double>" вычислена как false
+  			C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\concepts.h(37,11):
+  			концепция "Convertible<double,double>" вычислена как false
+  				C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\concepts.h(25,12):
+  				Vector<double>::~Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  				C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(72,14):
+  				 см. объявление "Vector<double>::~Vector"
+  				C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+  				 см. объявление "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(66,5):
+  или       "Vector<double>::Vector(const I,const Vector<double>::size_type)"
+  	C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(22,26):
+  	"Vector<double>::Vector(const I,const Vector<double>::size_type)": ожидаются аргументы 2 — 1 предоставлены
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(64,5):
+  или       "Vector<double>::Vector(const I,const I)"
+  	C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(22,26):
+  	"Vector<double>::Vector(const I,const I)": ожидаются аргументы 2 — 1 предоставлены
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(62,5):
+  или       "Vector<double>::Vector(const I,const I,const Vector<double>::size_type)"
+  	C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(22,26):
+  	"Vector<double>::Vector(const I,const I,const Vector<double>::size_type)": ожидаются аргументы 3 — 1 предоставлены
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(59,5):
+  или       "Vector<double>::Vector(Vector<U> &&) noexcept"
+  	C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(22,26):
+  	'Vector<double>::Vector(Vector<U> &&) noexcept': не удалось вывести аргумент шаблон для 'Vector<U> &&' из 'std::array<double,3>'
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(55,5):
+  или       "Vector<double>::Vector(const Vector<U> &)"
+  	C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(22,26):
+  	'Vector<double>::Vector(const Vector<U> &)': не удалось вывести аргумент шаблон для 'const Vector<U> &' из 'std::array<double,3>'
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(51,5):
+  или       "Vector<double>::Vector(std::initializer_list<U>)"
+  	C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(22,26):
+  	'Vector<double>::Vector(std::initializer_list<U>)': не удалось вывести аргумент шаблон для 'std::initializer_list<U>' из 'std::array<double,3>'
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(22,26):
+  при попытке сопоставить список аргументов "(std::array<double,3>)"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(22,30): error C2248: Vector<double>::~Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(72,14):
+   см. объявление "Vector<double>::~Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(24,33): error C2248: Vector<double>::begin: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(33,14):
+   см. объявление "Vector<double>::begin"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(30,22): error C2248: Vector<double>::Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(314,12):
+   см. объявление "Vector<double>::Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(30,32): error C2248: Vector<double>::~Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(72,14):
+   см. объявление "Vector<double>::~Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(42,27): error C2248: Vector<int>::Vector: невозможно обратиться к private член, объявленному в классе "Vector<int>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(162,12):
+   см. объявление "Vector<int>::Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(14,11):
+   см. объявление "Vector<int>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(42,27): error C2248: Vector<int>::~Vector: невозможно обратиться к private член, объявленному в классе "Vector<int>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(72,14):
+   см. объявление "Vector<int>::~Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(14,11):
+   см. объявление "Vector<int>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(43,24): error C2248: Vector<int>::Vector: невозможно обратиться к private член, объявленному в классе "Vector<int>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(162,12):
+   см. объявление "Vector<int>::Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(14,11):
+   см. объявление "Vector<int>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(43,24): error C2248: Vector<int>::~Vector: невозможно обратиться к private член, объявленному в классе "Vector<int>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(72,14):
+   см. объявление "Vector<int>::~Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(14,11):
+   см. объявление "Vector<int>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(44,27): error C2248: Vector<double>::Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(162,12):
+   см. объявление "Vector<double>::Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(44,27): error C2248: Vector<double>::~Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(72,14):
+   см. объявление "Vector<double>::~Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(47,10): error C2248: Vector<int>::operator =: невозможно обратиться к private член, объявленному в классе "Vector<int>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(379,23):
+   см. объявление "Vector<int>::operator ="
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(14,11):
+   см. объявление "Vector<int>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(49,10): error C2248: Vector<int>::operator =: невозможно обратиться к private член, объявленному в классе "Vector<int>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(75,16):
+   см. объявление "Vector<int>::operator ="
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(14,11):
+   см. объявление "Vector<int>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(51,10): error C2248: Vector<int>::operator =: невозможно обратиться к private член, объявленному в классе "Vector<int>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(379,23):
+   см. объявление "Vector<int>::operator ="
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(14,11):
+   см. объявление "Vector<int>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(53,5): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::array<double,3>" (или приемлемое преобразование отсутствует)
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(82,16):
+  может быть "Vector<int> &Vector<int>::operator =(Vector<int> &&) noexcept"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(75,16):
+  или       "Vector<int> &Vector<int>::operator =(const Vector<int> &)"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(81,16):
+  или       "Vector<int> &Vector<int>::operator =(const C &)"
+  	C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(53,5):
+  	связанные ограничения не соблюдаются
+  		C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(418,11):
+  		концепция "ConvertibleContainer<std::array<double,3>,int>" вычислена как false
+  			C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\concepts.h(37,11):
+  			концепция "Convertible<double,int>" вычислена как false
+  				C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\concepts.h(25,12):
+  				Vector<int>::~Vector: невозможно обратиться к private член, объявленному в классе "Vector<int>"
+  				C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(72,14):
+  				 см. объявление "Vector<int>::~Vector"
+  				C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(14,11):
+  				 см. объявление "Vector<int>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(79,16):
+  или       "Vector<int> &Vector<int>::operator =(std::initializer_list<U>)"
+  	C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(53,5):
+  	'Vector<int> &Vector<int>::operator =(std::initializer_list<U>)': не удалось вывести аргумент шаблон для 'std::initializer_list<U>' из 'std::array<double,3>'
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(77,16):
+  или       "Vector<int> &Vector<int>::operator =(const Vector<U> &)"
+  	C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(53,5):
+  	'Vector<int> &Vector<int>::operator =(const Vector<U> &)': не удалось вывести аргумент шаблон для 'const Vector<U> &' из 'std::array<double,3>'
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(53,5):
+  при попытке сопоставить список аргументов "(Vector<int>, std::array<double,3>)"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(57,31): error C2248: Vector<double>::Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(162,12):
+   см. объявление "Vector<double>::Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(57,31): error C2248: Vector<double>::~Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(72,14):
+   см. объявление "Vector<double>::~Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(58,31): error C2248: Vector<double>::Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(162,12):
+   см. объявление "Vector<double>::Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(58,31): error C2248: Vector<double>::~Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(72,14):
+   см. объявление "Vector<double>::~Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(61,81): error C2248: Vector<double>::IsZero: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(96,10):
+   см. объявление "Vector<double>::IsZero"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(62,81): error C2248: Vector<double>::IsSingle: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(98,10):
+   см. объявление "Vector<double>::IsSingle"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(63,79): error C3779: "Vector<double>::GetSingle": функцию, возвращающую "decltype(auto)" нельзя использовать, предварительно не определив
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(99,20):
+   см. объявление "Vector<double>::GetSingle"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(64,74): error C2248: Vector<double>::GetSize: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(241,15):
+   см. объявление "Vector<double>::GetSize"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(65,75): error C3779: "Vector<double>::GetLength": функцию, возвращающую "decltype(auto)" нельзя использовать, предварительно не определив
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(97,20):
+   см. объявление "Vector<double>::GetLength"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(66,114): error C3779: "Vector<double>::GetAngleBetweenVectors": функцию, возвращающую "decltype(auto)" нельзя использовать, предварительно не определив
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(100,20):
+   см. объявление "Vector<double>::GetAngleBetweenVectors"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(69,69): error C2248: Vector<double>::SetItem: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(89,10):
+   см. объявление "Vector<double>::SetItem"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(70,69): error C2248: Vector<double>::GetItem: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(85,8):
+   см. объявление "Vector<double>::GetItem"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(71,75): error C2248: Vector<int>::GetItem: невозможно обратиться к private член, объявленному в классе "Vector<int>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(86,14):
+   см. объявление "Vector<int>::GetItem"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(14,11):
+   см. объявление "Vector<int>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(72,19): error C2248: Vector<double>::operator []: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(92,8):
+   см. объявление "Vector<double>::operator []"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(73,69): error C2248: Vector<double>::operator []: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(92,8):
+   см. объявление "Vector<double>::operator []"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(77,84): error C2248: Vector<double>::operator +: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(1050,28):
+   см. объявление "Vector<double>::operator +"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(77,84): error C2248: Vector<double>::~Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(72,14):
+   см. объявление "Vector<double>::~Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(78,87): error C2248: Vector<double>::sum: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(1069,28):
+   см. объявление "Vector<double>::sum"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(78,86): error C2248: Vector<double>::~Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(72,14):
+   см. объявление "Vector<double>::~Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(79,88): error C2248: Vector<double>::operator +=: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(1076,24):
+   см. объявление "Vector<double>::operator +="
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(80,94): error C2248: Vector<double>::SumEqual: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(1092,24):
+   см. объявление "Vector<double>::SumEqual"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(82,14): error C2248: Vector<double>::operator =: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(398,23):
+   см. объявление "Vector<double>::operator ="
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(86,85): error C2248: Vector<double>::operator +: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(1154,28):
+   см. объявление "Vector<double>::operator +"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(86,85): error C2248: Vector<double>::~Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(72,14):
+   см. объявление "Vector<double>::~Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(87,91): error C2248: Vector<double>::SumNum: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(1190,28):
+   см. объявление "Vector<double>::SumNum"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(87,90): error C2248: Vector<double>::~Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(72,14):
+   см. объявление "Vector<double>::~Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(88,67): error C2248: Vector<int>::~Vector: невозможно обратиться к private член, объявленному в классе "Vector<int>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(72,14):
+   см. объявление "Vector<int>::~Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(14,11):
+   см. объявление "Vector<int>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(89,89): error C2248: Vector<double>::operator +=: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(1177,24):
+   см. объявление "Vector<double>::operator +="
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(90,98): error C2248: Vector<double>::SumNumEqual: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(1197,24):
+   см. объявление "Vector<double>::SumNumEqual"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(92,14): error C2248: Vector<double>::operator =: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(398,23):
+   см. объявление "Vector<double>::operator ="
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(95,84): error C2248: Vector<double>::operator -: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(1100,27):
+   см. объявление "Vector<double>::operator -"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(95,84): error C2248: Vector<double>::~Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(72,14):
+   см. объявление "Vector<double>::~Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(96,87): error C2248: Vector<double>::Sub: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(1138,27):
+   см. объявление "Vector<double>::Sub"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(96,86): error C2248: Vector<double>::~Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(72,14):
+   см. объявление "Vector<double>::~Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(97,88): error C2248: Vector<double>::operator -=: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(1121,23):
+   см. объявление "Vector<double>::operator -="
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(98,94): error C2248: Vector<double>::SubEqual: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(1145,23):
+   см. объявление "Vector<double>::SubEqual"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(101,85): error C2248: Vector<double>::operator -: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(1211,27):
+   см. объявление "Vector<double>::operator -"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(101,85): error C2248: Vector<double>::~Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(72,14):
+   см. объявление "Vector<double>::~Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(102,91): error C2248: Vector<double>::SubNum: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(1249,27):
+   см. объявление "Vector<double>::SubNum"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(102,90): error C2248: Vector<double>::~Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(72,14):
+   см. объявление "Vector<double>::~Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(103,67): error C2248: Vector<int>::~Vector: невозможно обратиться к private член, объявленному в классе "Vector<int>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(72,14):
+   см. объявление "Vector<int>::~Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(14,11):
+   см. объявление "Vector<int>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(104,89): error C2248: Vector<double>::operator -=: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(1236,23):
+   см. объявление "Vector<double>::operator -="
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(105,98): error C2248: Vector<double>::SumNumEqual: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(1197,24):
+   см. объявление "Vector<double>::SumNumEqual"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(107,14): error C2248: Vector<double>::operator =: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(398,23):
+   см. объявление "Vector<double>::operator ="
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(110,85): error C2248: Vector<double>::operator *: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(729,27):
+   см. объявление "Vector<double>::operator *"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(111,94): error C2248: Vector<double>::ScalarMul: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(758,27):
+   см. объявление "Vector<double>::ScalarMul"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(112,88): error C2248: Vector<double>::operator *=: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(744,14):
+   см. объявление "Vector<double>::operator *="
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(113,100): error C2248: Vector<double>::ScalarMulEqual: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(765,14):
+   см. объявление "Vector<double>::ScalarMulEqual"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(115,14): error C2248: Vector<double>::operator =: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(398,23):
+   см. объявление "Vector<double>::operator ="
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(119,87): error C2248: Vector<double>::operator *: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(615,27):
+   см. объявление "Vector<double>::operator *"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(119,87): error C2248: Vector<double>::~Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(72,14):
+   см. объявление "Vector<double>::~Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(120,93): error C2248: Vector<double>::MulNum: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(638,27):
+   см. объявление "Vector<double>::MulNum"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(120,92): error C2248: Vector<double>::~Vector: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(72,14):
+   см. объявление "Vector<double>::~Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(121,67): error C2248: Vector<int>::~Vector: невозможно обратиться к private член, объявленному в классе "Vector<int>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.h(72,14):
+   см. объявление "Vector<int>::~Vector"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(14,11):
+   см. объявление "Vector<int>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(122,91): error C2248: Vector<double>::operator *=: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(645,23):
+   см. объявление "Vector<double>::operator *="
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(123,100): error C2248: Vector<double>::MulNumEqual: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(657,23):
+   см. объявление "Vector<double>::MulNumEqual"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(125,14): error C2248: Vector<double>::operator =: невозможно обратиться к private член, объявленному в классе "Vector<double>"
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(398,23):
+   см. объявление "Vector<double>::operator ="
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(13,5):
+   см. объявление "Vector<double>"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(125,14): error C1003: число ошибок превышает 100; остановка компиляции
+  Создание кода...

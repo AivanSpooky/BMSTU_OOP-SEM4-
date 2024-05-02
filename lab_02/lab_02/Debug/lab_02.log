@@ -1,0 +1,119 @@
+﻿  lab_02.cpp
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(320,19): warning C4244: =: преобразование "T" в "T", возможна потеря данных
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(320,19): warning C4244:         with
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(320,19): warning C4244:         [
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(320,19): warning C4244:             T=double
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(320,19): warning C4244:         ]
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(320,19): warning C4244:         and
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(320,19): warning C4244:         [
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(320,19): warning C4244:             T=int
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(320,19): warning C4244:         ]
+  (компиляция исходного файла "lab_02.cpp")
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(320,19):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(39,10):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "decltype(auto) Vector<int>::operator =<double>(const Vector<double> &)"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(1155,28): warning C4101: exception: неиспользованная локальная переменная
+  (компиляция исходного файла "lab_02.cpp")
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(1155,28):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(14,23):
+  	выполняется компиляция ссылки на экземпляр класс шаблон функции "Vector<int>"
+  	C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(1149,1):
+  	во время компиляции функции-члена класс шаблон "void Vector<int>::AllocNewVector(int)"
+  		C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(313,19):
+  		см. первую ссылку на "Vector<int>::AllocNewVector" в "Vector<int>::operator ="
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(142,35): warning C4018: <: несоответствие типов со знаком и без знака
+  (компиляция исходного файла "lab_02.cpp")
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(142,35):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(18,36):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "Vector<double>::Vector<Iterator<T>>(const I,const I,const BaseIter::vec_size_t)"
+          with
+          [
+              T=double,
+              I=Iterator<double>
+          ]
+  		C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(18,36):
+  		см. первую ссылку на "Vector<double>::Vector" в "main"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(187,13): warning C4018: >: несоответствие типов со знаком и без знака
+  (компиляция исходного файла "lab_02.cpp")
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(187,13):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(19,30):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "Vector<double>::Vector<Iterator<T>>(const I,const BaseIter::vec_size_t)"
+          with
+          [
+              T=double,
+              I=Iterator<double>
+          ]
+  		C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(19,30):
+  		см. первую ссылку на "Vector<double>::Vector" в "main"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(203,35): warning C4018: <: несоответствие типов со знаком и без знака
+  (компиляция исходного файла "lab_02.cpp")
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(358,17): warning C4244: =: преобразование "const _Ty" в "T", возможна потеря данных
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(358,17): warning C4244:         with
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(358,17): warning C4244:         [
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(358,17): warning C4244:             _Ty=double
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(358,17): warning C4244:         ]
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(358,17): warning C4244:         and
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(358,17): warning C4244:         [
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(358,17): warning C4244:             T=int
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(358,17): warning C4244:         ]
+  (компиляция исходного файла "lab_02.cpp")
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(358,17):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(45,10):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "Vector<int> &Vector<int>::operator =<std::array<double,3>>(const C &)"
+          with
+          [
+              C=std::array<double,3>
+          ]
+  		C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(45,10):
+  		см. первую ссылку на "Vector<int>::operator =" в "main"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(464,11): warning C4244: инициализация: преобразование "double" в "T", возможна потеря данных
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(464,11): warning C4244:         with
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(464,11): warning C4244:         [
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(464,11): warning C4244:             T=int
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(464,11): warning C4244:         ]
+  (компиляция исходного файла "lab_02.cpp")
+  C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(464,11):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(99,1):
+  	во время компиляции функции-члена класс шаблон "Vector<int>::Vector(std::initializer_list<T>)"
+          with
+          [
+              T=int
+          ]
+  		C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(14,35):
+  		см. первую ссылку на "Vector<int>::Vector" в "main"
+  	C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(16,1):
+  	во время компиляции функции-члена класс шаблон "Vector<int>::Vector(void)"
+  	C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(459,1):
+  	во время компиляции функции-члена класс шаблон "T Vector<T>::GetLength(void) const"
+          with
+          [
+              T=int
+          ]
+  		C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(494,5):
+  		см. первую ссылку на "Vector<int>::GetLength" в "Vector<int>::GetAngleBetweenVectors"
+  		C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(510,5):
+  		см. первую ссылку на "Vector<int>::GetAngleBetweenVectors" в "Vector<int>::IsCollinear"
+  		C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\lab_02.cpp(153,64):
+  		см. первую ссылку на "Vector<int>::IsCollinear" в "main"
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(467,15): warning C4244: =: преобразование "double" в "T", возможна потеря данных
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(467,15): warning C4244:         with
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(467,15): warning C4244:         [
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(467,15): warning C4244:             T=int
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(467,15): warning C4244:         ]
+  (компиляция исходного файла "lab_02.cpp")
+  
+C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\lab_02\vector.hpp(361): warning C4715: Vector<int>::operator=<std::array<double,3> >: значение возвращается не при всех путях выполнения
+  lab_02.vcxproj -> C:\Users\User\Desktop\учеба\бауманка\4-сем\ООП\lab_02\Debug\lab_02.exe

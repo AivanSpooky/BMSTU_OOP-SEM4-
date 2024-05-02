@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Iterator">
+      <UniqueIdentifier>{9d29ef9e-e483-40b0-be11-8b5388dbec78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Vector">
+      <UniqueIdentifier>{131d5184-fd5e-491c-ac68-59009397a8b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Except">
+      <UniqueIdentifier>{31c89dc0-efd6-4025-b8e5-7c9efe44eb1b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lab_02.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="base_vector.cpp">
+      <Filter>Файлы заголовков\Vector</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base_iter.hpp">
+      <Filter>Файлы заголовков\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="exception.h">
+      <Filter>Файлы заголовков\Except</Filter>
+    </ClInclude>
+    <ClInclude Include="base_iter.h">
+      <Filter>Файлы заголовков\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="const_iter.h">
+      <Filter>Файлы заголовков\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="const_iter.hpp">
+      <Filter>Файлы заголовков\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="iter.h">
+      <Filter>Файлы заголовков\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="iter.hpp">
+      <Filter>Файлы заголовков\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="codes.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="base_vector.h">
+      <Filter>Файлы заголовков\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Файлы заголовков\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.hpp">
+      <Filter>Файлы заголовков\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="concepts.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="base_exception.h">
+      <Filter>Файлы заголовков\Except</Filter>
+    </ClInclude>
+    <ClInclude Include="iter_exception.h">
+      <Filter>Файлы заголовков\Except</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_exception.h">
+      <Filter>Файлы заголовков\Except</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
