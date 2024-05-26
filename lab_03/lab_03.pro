@@ -63,6 +63,7 @@ SOURCES += \
     load/builders/camera/basecamerabuilder.cpp \
     load/builders/model/basemodelbuilder.cpp \
     load/builders/scene/basescenebuilder.cpp \
+    load/directors/readers/carcassmodelreaderfactory.cpp \
     main.cpp \
     mainwindow.cpp \
     managers/creators/historymanagercreator.cpp \

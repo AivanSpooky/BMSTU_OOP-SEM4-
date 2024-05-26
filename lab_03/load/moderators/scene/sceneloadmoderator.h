@@ -1,6 +1,7 @@
 #ifndef SCENELOADMODERATOR_H
 #define SCENELOADMODERATOR_H
 
+#include "baseloadmoderator.h"
 #include "basescenebuilddirector.h"
 #include "scenebuilder.h"
 
