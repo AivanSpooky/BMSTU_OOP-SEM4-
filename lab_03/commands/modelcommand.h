@@ -3,6 +3,7 @@
 
 #include <cstddef>
 #include <memory>
+#include "transformer.h"
 
 #include "basecommand.h"
 
@@ -67,7 +68,7 @@ private:
 class TransformModel : public ModelCommand
 {
 public:
-    TransformModel(const Matrix<double> &mtr, const std::size_t id);
+    TransformModel(Transformer &mtr, const std::size_t id);
 
     virtual void execute() override;
     virtual void undo() override;
@@ -76,7 +77,7 @@ public:
     std::shared_ptr<BaseCommand> clone() const override;
 
 private:
-    Matrix<double> _mtr;
+    Transformer _mtr;
     std::size_t _id;
 };
 

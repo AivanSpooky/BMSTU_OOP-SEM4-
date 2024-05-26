@@ -7,7 +7,7 @@ class ModelBuilder : public BaseModelBuilder
 {
 public:
     ModelBuilder() = default;
-    explicit ModelBuilder(std::shared_ptr<FileCarcassModelReader> reader);
+    explicit ModelBuilder(std::shared_ptr<BaseCarcassModelReader> reader);
     ~ModelBuilder() = default;
 
     void build() override;

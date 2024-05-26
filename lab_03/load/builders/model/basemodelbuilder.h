@@ -21,7 +21,7 @@ public:
 
     virtual std::shared_ptr<CarcassModel> get() = 0;
 
-    std::shared_ptr<FileCarcassModelReader> _reader;
+    std::shared_ptr<BaseCarcassModelReader> _reader;
 protected:
     std::shared_ptr<ModelStructure> _model;
 

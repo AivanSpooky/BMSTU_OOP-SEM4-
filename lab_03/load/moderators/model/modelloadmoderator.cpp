@@ -7,6 +7,8 @@ ModelLoadModerator::ModelLoadModerator(std::shared_ptr<BaseModelBuildDirector> d
 
 std::shared_ptr<Object> ModelLoadModerator::load(std::string &fileName)
 {
-    auto builder = std::make_shared<ModelBuilder>(std::make_shared<FileCarcassModelReader>());
+    CarcassModelReaderFactory CMreaderFactory;
+    auto reader = CMreaderFactory.createReader(fileName);
+    auto builder = std::make_shared<ModelBuilder>(reader);
     return _director->create(builder, fileName);
 }

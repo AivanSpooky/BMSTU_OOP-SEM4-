@@ -1,5 +1,5 @@
 #include <cmath>
-
+#include <QDebug>
 #include "vertex.h"
 
 double toRadians(const double angle)
@@ -109,10 +109,10 @@ Vertex Vertex::operator-(const Vertex &vertex) const
 }
 
 
-void Vertex::transform(const Matrix<double> &mtr)
+void Vertex::transform(Transformer &mtr)
 {
     Matrix<double> cur_location = {{_x, _y, _z, 1}};
-    Matrix<double> new_location = cur_location * mtr;
+    Matrix<double> new_location = cur_location * mtr.GetMatrix();
 
     _x = new_location[0][0];
     _y = new_location[0][1];

@@ -66,10 +66,7 @@ void Composite::moveElemsToOrigin(const Vertex &center)
 {
     Vertex diff = Vertex(0, 0, 0) - center;
 
-    Matrix<double> mtr = {{    1,            0,            0,             0      },
-                          {    0,            1,            0,             0      },
-                          {    0,            0,            1,             0      },
-                          {diff.getX(),  diff.getY(),  diff.getZ(),       1      }};
+    Transformer mtr = Transformer(diff.getX(), diff.getY(), diff.getZ(), 0, 0, 0, 0, 0, 0);
 
     transformElems(mtr);
     updateCenter();
@@ -79,16 +76,13 @@ void Composite::moveElemsToCenter(const Vertex &center)
 {
     Vertex diff = center - _center;
 
-    Matrix<double> mtr = {{    1,            0,            0,             0      },
-                          {    0,            1,            0,             0      },
-                          {    0,            0,            1,             0      },
-                          {diff.getX(),  diff.getY(),  diff.getZ(),       1      }};
+    Transformer mtr = Transformer(diff.getX(), diff.getY(), diff.getZ(), 0, 0, 0, 0, 0, 0);
 
     transformElems(mtr);
     updateCenter();
 }
 
-void Composite::transformElems(const Matrix<double> &mtr)
+void Composite::transformElems(Transformer &mtr)
 {
     for (const auto &element : _elements)
     {
@@ -97,7 +91,7 @@ void Composite::transformElems(const Matrix<double> &mtr)
     }
 }
 
-void Composite::transform(const Matrix<double> &mtr, const Vertex &center)
+void Composite::transform(Transformer &mtr, const Vertex &center)
 {
     updateCenter();
 

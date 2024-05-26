@@ -11,7 +11,7 @@ Vertex CarcassModel::getCenter() const
     return _modelStructure->getCenter();
 }
 
-void CarcassModel::transform(const Matrix<double> &mtr, const Vertex &center)
+void CarcassModel::transform(Transformer &mtr, const Vertex &center)
 {
     _modelStructure->transform(mtr, center);
 }

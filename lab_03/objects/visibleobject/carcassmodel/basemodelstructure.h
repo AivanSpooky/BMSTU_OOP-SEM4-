@@ -3,6 +3,7 @@
 
 #include <vector>
 #include "vertex.h"
+#include "transformer.h"
 #include "link.h"
 #include "matrix.h"
 
@@ -21,8 +22,8 @@ public:
 
     virtual void moveVertexesToOrigin(const Vertex &center) = 0;
     virtual void moveVertexesToCenter(const Vertex &center) = 0;
-    virtual void transformVertexes(const Matrix<double> &mtr) = 0;
-    virtual void transform(const Matrix<double> &mtr, const Vertex &center) = 0;
+    virtual void transformVertexes(Transformer &mtr) = 0;
+    virtual void transform(Transformer &mtr, const Vertex &center) = 0;
 };
 
 #endif // BASEMODELSTRUCTURE_H

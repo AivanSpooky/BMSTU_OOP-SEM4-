@@ -5,6 +5,7 @@
 #include "basemodelbuilddirector.h"
 #include "filecarcassmodelreader.h"
 #include "basemodelbuilder.h"
+#include "carcassmodelreaderfactory.h"
 
 class ModelLoadModerator : public BaseLoadModerator
 {

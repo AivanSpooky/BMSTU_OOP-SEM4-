@@ -48,6 +48,8 @@ INCLUDEPATH += $$PWD/managers/scene
 INCLUDEPATH += $$PWD/managers/transform
 INCLUDEPATH += $$PWD/managers/history
 
+INCLUDEPATH += $$PWD/transform
+
 INCLUDEPATH += $$PWD/exceptions
 INCLUDEPATH += $$PWD/drawer
 INCLUDEPATH += $$PWD/commands
@@ -109,11 +111,13 @@ SOURCES += \
     drawer/qtdrawer.cpp \
     drawer/qtdrawerfactory.cpp \
     facade/facade.cpp \
+    transform/transformer.cpp
 
 HEADERS += \
     commands/undocommand.h \
     historyholder/basehistorycarrytaker.h \
     historyholder/command/commandhistorycarrytaker.h \
+    load/directors/readers/carcassmodelreaderfactory.h \
     mainwindow.h \
     managers/creators/historymanagercreator.h \
     matrix/matrix/matrix.h \
@@ -191,6 +195,7 @@ HEADERS += \
     drawer/qtdrawerfactory.h \
     exceptions/exceptions.h \
     facade/facade.h \
+    transform/transformer.h
 
 
 

@@ -6,6 +6,7 @@
 #include <QDebug>
 
 #include "vertex.h"
+#include "transformer.h"
 
 
 class Object;
@@ -28,8 +29,8 @@ public:
     virtual Vertex getCenter() const = 0;
     virtual void moveElemsToOrigin(const Vertex &) { }
     virtual void moveElemsToCenter(const Vertex &) { }
-    virtual void transformElems(const Matrix<double> &) { }
-    virtual void transform(const Matrix<double> &mtr, const Vertex &center) = 0;
+    virtual void transformElems(Transformer &) { }
+    virtual void transform(Transformer &mtr, const Vertex &center) = 0;
 
     virtual Iterator begin() { return Iterator(); }
     virtual Iterator end() { return Iterator(); }

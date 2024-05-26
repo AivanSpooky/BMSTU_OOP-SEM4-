@@ -2,6 +2,7 @@
 #define TRANSFORMMANAGER_H
 
 #include "basemanager.h"
+#include "transformer.h"
 #include "object.h"
 #include "matrix.h"
 
@@ -29,7 +30,7 @@ public:
                              const double &oz);
 
     static void transformObject(const std::shared_ptr<Object> &object,
-                                const Matrix<double> &mtr);
+                                Transformer &mtr);
 };
 
 

@@ -66,7 +66,7 @@ private:
 class TransformModels : public ModelsCommand
 {
 public:
-    TransformModels(const Matrix<double> &mtr);
+    TransformModels(Transformer &mtr);
 
     virtual void execute() override;
     virtual void undo() override;
@@ -75,7 +75,7 @@ public:
     std::shared_ptr<BaseCommand> clone() const override;
 
 private:
-    Matrix<double> _mtr;
+    Transformer _mtr;
 };
 
 #endif // MODELSCOMMAND_H

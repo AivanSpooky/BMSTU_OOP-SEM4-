@@ -2,6 +2,7 @@
 #define VERTEX_H
 
 #include "matrix.h"
+#include "transformer.h"
 
 class Vertex
 {
@@ -37,7 +38,7 @@ public:
     Vertex getAbsVertex(const Vertex &center);
 
     Vertex getCenter() const;
-    void transform(const Matrix<double> &mtr);
+    void transform(Transformer &mtr);
 
 private:
     double _x;

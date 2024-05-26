@@ -24,8 +24,8 @@ public:
 
     void moveVertexesToOrigin(const Vertex &center) override;
     void moveVertexesToCenter(const Vertex &center) override;
-    void transformVertexes(const Matrix<double> &mtr) override;
-    void transform(const Matrix<double> &mtr, const Vertex &center) override;
+    void transformVertexes(Transformer &mtr) override;
+    void transform(Transformer &mtr, const Vertex &center) override;
 
 private:
     Vertex _center;

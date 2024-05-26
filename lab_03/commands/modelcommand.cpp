@@ -90,7 +90,7 @@ std::shared_ptr<BaseCommand> RotateModel::clone() const
 
 
 
-TransformModel::TransformModel(const Matrix<double> &mtr, const std::size_t id) :
+TransformModel::TransformModel(Transformer &mtr, const std::size_t id) :
         _mtr(mtr), _id(id) { }
 
 void TransformModel::execute()

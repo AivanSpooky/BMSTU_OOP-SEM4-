@@ -1,6 +1,6 @@
 #include "modelbuilder.h"
 
-ModelBuilder::ModelBuilder(std::shared_ptr<FileCarcassModelReader> reader)
+ModelBuilder::ModelBuilder(std::shared_ptr<BaseCarcassModelReader> reader)
 {
     _reader = reader;
 }

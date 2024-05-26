@@ -65,11 +65,7 @@ void MatrixModelStructure::moveVertexesToOrigin(const Vertex &center)
 {
     Vertex diff = Vertex(0, 0, 0) - center;
 
-    Matrix<double> mtr = {
-                          {1, 0, 0, 0},
-                          {0, 1, 0, 0},
-                          {0, 0, 1, 0},
-                          {diff.getX(), diff.getY(), diff.getZ(), 1}};
+    Transformer mtr = Transformer(diff.getX(), diff.getY(), diff.getZ(), 1, 1, 1, 0, 0, 0);
 
     transformVertexes(mtr);
     updateCenter();
@@ -79,23 +75,19 @@ void MatrixModelStructure::moveVertexesToCenter(const Vertex &center)
 {
     Vertex diff = center - Vertex(0, 0, 0);
 
-    Matrix<double> mtr = {
-                          {1, 0, 0, 0},
-                          {0, 1, 0, 0},
-                          {0, 0, 1, 0},
-                          {diff.getX(), diff.getY(), diff.getZ(), 1}};
+    Transformer mtr = Transformer(diff.getX(), diff.getY(), diff.getZ(), 1, 1, 1, 0, 0, 0);
 
     transformVertexes(mtr);
     updateCenter();
 }
 
-void MatrixModelStructure::transformVertexes(const Matrix<double> &mtr)
+void MatrixModelStructure::transformVertexes(Transformer &mtr)
 {
     for (auto &vertex : _vertexes)
         vertex.transform(mtr);
 }
 
-void MatrixModelStructure::transform(const Matrix<double> &mtr, const Vertex &center)
+void MatrixModelStructure::transform(Transformer &mtr, const Vertex &center)
 {
     updateCenter();
     moveVertexesToOrigin(center);
