@@ -20,8 +20,11 @@ public:
     virtual std::vector<Vertex> readVertexes() override;
     virtual std::vector<Link> readLinks(int &vertexNum) override;
 
+
+    static std::string _tag;
 private:
     std::shared_ptr<std::ifstream> _file;
+
 };
 
 #endif // FILECARCASSMODELREADER_H

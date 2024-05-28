@@ -1,6 +1,7 @@
 #include "filecarcassmodelreader.h"
 #include "exceptions.h"
 
+std::string FileCarcassModelReader::_tag = "txt";
 
 FileCarcassModelReader::FileCarcassModelReader()
 {

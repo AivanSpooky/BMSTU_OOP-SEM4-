@@ -5,13 +5,13 @@
 #include "transformer.h"
 #include "vertex.h"
 
-class BaseModel: public VisibleObject
-{
-public:
-    virtual ~BaseModel() = default;
+// class BaseModel: public VisibleObject
+// {
+// public:
+//     virtual ~BaseModel() = default;
 
-    virtual Vertex getCenter() const = 0;
-    virtual void transform(Transformer &mtr, const Vertex &center) = 0;
-};
+//     virtual Vertex getCenter() const = 0;
+//     virtual void transform(Transformer &mtr, const Vertex &center) = 0;
+// };
 
 #endif // BASEMODEL_H

@@ -21,6 +21,7 @@ private:
     std::string getFileExtension(const std::string& fileName);
 
     using ReaderCreator = std::function<std::shared_ptr<BaseCarcassModelReader>()>;
+
     std::unordered_map<std::string, ReaderCreator> readerCreators;
 };
 

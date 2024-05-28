@@ -12,7 +12,7 @@
 #include "matrixmodelstructure.h"
 #include "drawcarcassmodeladapter.h"
 
-class CarcassModel : public BaseModel
+class CarcassModel : public VisibleObject
 {
     friend class DrawCarcassModelAdapter;
 

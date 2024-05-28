@@ -16,6 +16,9 @@ public:
 private:
     std::shared_ptr<Camera> _camera;
     std::shared_ptr<BaseDrawer> _drawer;
+
+    template<typename AdapterType, typename AdapteeType>
+    void processElement(std::shared_ptr<AdapteeType> elem);
 };
 
 

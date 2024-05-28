@@ -2,7 +2,7 @@
 
 CarcassModelReaderFactory::CarcassModelReaderFactory()
 {
-    readerCreators["txt"] = []() -> std::shared_ptr<BaseCarcassModelReader> {
+    readerCreators[FileCarcassModelReader::_tag] = []() -> std::shared_ptr<BaseCarcassModelReader> {
         return std::make_shared<FileCarcassModelReader>();
     };
 }

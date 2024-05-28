@@ -66,7 +66,7 @@ void Composite::moveElemsToOrigin(const Vertex &center)
 {
     Vertex diff = Vertex(0, 0, 0) - center;
 
-    Transformer mtr = Transformer(diff.getX(), diff.getY(), diff.getZ(), 0, 0, 0, 0, 0, 0);
+    Transformer mtr = Transformer(diff.getX(), diff.getY(), diff.getZ(), 1, 1, 1, 0, 0, 0);
 
     transformElems(mtr);
     updateCenter();
@@ -76,7 +76,7 @@ void Composite::moveElemsToCenter(const Vertex &center)
 {
     Vertex diff = center - _center;
 
-    Transformer mtr = Transformer(diff.getX(), diff.getY(), diff.getZ(), 0, 0, 0, 0, 0, 0);
+    Transformer mtr = Transformer(diff.getX(), diff.getY(), diff.getZ(), 1, 1, 1, 0, 0, 0);
 
     transformElems(mtr);
     updateCenter();

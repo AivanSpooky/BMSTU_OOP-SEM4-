@@ -71,7 +71,6 @@ SOURCES += \
     objects/composite.cpp \
     objects/object.cpp \
     objects/invisibleobject/camera.cpp \
-    objects/visibleobject/basemodel.cpp \
     objects/visibleobject/carcassmodel/carcassmodel.cpp \
     objects/visibleobject/carcassmodel/link.cpp \
     objects/visibleobject/carcassmodel/matrixmodelstructure.cpp \
@@ -134,7 +133,6 @@ HEADERS += \
     objects/object.h \
     objects/invisibleobject/camera.h \
     objects/invisibleobject/invisibleobject.h \
-    objects/visibleobject/basemodel.h \
     objects/visibleobject/carcassmodel/basemodelstructure.h \
     objects/visibleobject/carcassmodel/matrixmodelstructure.h \
     objects/visibleobject/visibleobject.h \
