@@ -9,6 +9,7 @@
 #include "exceptions.h"
 #include "basecarcassmodelreader.h"
 #include "filecarcassmodelreader.h"
+#include "binarycarcassmodelreader.h"
 
 class CarcassModelReaderFactory
 {

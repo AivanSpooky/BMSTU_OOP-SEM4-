@@ -111,6 +111,7 @@ void MainWindow::on_loadModelBtn_clicked()
 
     auto id = std::make_shared<size_t>(0);
     std::string fileName = file.toStdString();
+    qDebug() << fileName;
     LoadModel cmd(id, fileName);
 
     try

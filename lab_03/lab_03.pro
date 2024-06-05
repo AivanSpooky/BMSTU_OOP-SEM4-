@@ -63,6 +63,7 @@ SOURCES += \
     load/builders/camera/basecamerabuilder.cpp \
     load/builders/model/basemodelbuilder.cpp \
     load/builders/scene/basescenebuilder.cpp \
+    load/directors/readers/binarycarcassmodelreader.cpp \
     load/directors/readers/carcassmodelreaderfactory.cpp \
     main.cpp \
     mainwindow.cpp \
@@ -117,6 +118,7 @@ HEADERS += \
     commands/undocommand.h \
     historyholder/basehistorycarrytaker.h \
     historyholder/command/commandhistorycarrytaker.h \
+    load/directors/readers/binarycarcassmodelreader.h \
     load/directors/readers/carcassmodelreaderfactory.h \
     mainwindow.h \
     managers/creators/historymanagercreator.h \

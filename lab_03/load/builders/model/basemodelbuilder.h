@@ -17,7 +17,11 @@ public:
     virtual void build() override = 0;
     virtual void buildVertex(const Vertex &vertex) = 0;
     virtual void buildLink(const Link &link) = 0;
+    virtual void buildVertexes() = 0;
+    virtual void buildLinks() = 0;
     virtual bool isBuild() const override = 0;
+    virtual void openFile(std::string& fileName) = 0;
+    virtual void closeFile() = 0;
 
     virtual std::shared_ptr<CarcassModel> get() = 0;
 

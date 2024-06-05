@@ -5,6 +5,9 @@ CarcassModelReaderFactory::CarcassModelReaderFactory()
     readerCreators[FileCarcassModelReader::_tag] = []() -> std::shared_ptr<BaseCarcassModelReader> {
         return std::make_shared<FileCarcassModelReader>();
     };
+    readerCreators[BinaryCarcassModelReader::_tag] = []() -> std::shared_ptr<BaseCarcassModelReader> {
+        return std::make_shared<BinaryCarcassModelReader>();
+    };
 }
 
 std::shared_ptr<BaseCarcassModelReader> CarcassModelReaderFactory::createReader(const std::string& fileName)
