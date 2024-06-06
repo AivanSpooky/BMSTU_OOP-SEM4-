@@ -1,4 +1,5 @@
 #include "modelstructure.h"
+#include <QDebug>
 
 ModelStructure::ModelStructure(std::vector<Vertex> &vertexes, std::vector<Link> &links) :
     _center{ }, _vertexes(vertexes), _links(links) { }

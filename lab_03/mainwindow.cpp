@@ -11,6 +11,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     setupScene();
+    checkBoxState = DEFAULT;
 
     _facade = std::make_shared<Facade>(Facade());
 }
@@ -112,7 +113,7 @@ void MainWindow::on_loadModelBtn_clicked()
     auto id = std::make_shared<size_t>(0);
     std::string fileName = file.toStdString();
     qDebug() << fileName;
-    LoadModel cmd(id, fileName);
+    LoadModel cmd(id, fileName, checkBoxState);
 
     try
     {
@@ -494,5 +495,11 @@ void MainWindow::on_undoLastAction_clicked()
     }
 
     updateScene();
+}
+
+
+void MainWindow::on_checkBox_stateChanged(int arg1)
+{
+    checkBoxState = (arg1 == Qt::Checked) ? MATRIX : DEFAULT;
 }
 

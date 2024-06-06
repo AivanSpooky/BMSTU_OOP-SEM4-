@@ -34,3 +34,5 @@ std::shared_ptr<Object> CameraLoadModerator::load(std::string &fileName)
 
     return std::shared_ptr<Object>(camera_sh_ptr);
 }
+
+void CameraLoadModerator::change_impl(ModelStructureType impl) {}

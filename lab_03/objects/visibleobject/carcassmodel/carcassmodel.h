@@ -17,7 +17,7 @@ class CarcassModel : public VisibleObject
     friend class DrawCarcassModelAdapter;
 
 public:
-    CarcassModel() : _modelStructure(new ModelStructure) { }
+    CarcassModel() : _modelStructure(nullptr) { } /*!!*/
     explicit CarcassModel(const std::shared_ptr<BaseModelStructure> &modelStructure) :
         _modelStructure(modelStructure) { }
     CarcassModel(const CarcassModel &model);

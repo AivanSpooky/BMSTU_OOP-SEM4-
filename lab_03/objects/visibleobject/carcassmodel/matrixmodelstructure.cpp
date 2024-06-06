@@ -1,6 +1,7 @@
 #include "matrixmodelstructure.h"
+#include <QDebug>
 
-MatrixModelStructure::MatrixModelStructure(const std::vector<Vertex> &vertexes, const Matrix<int> &adjMatrix) :
+MatrixModelStructure::MatrixModelStructure(const std::vector<Vertex> &vertexes, const Matrix<double> &adjMatrix) :
     _vertexes(vertexes), _adjMatrix(adjMatrix)
 {
     updateCenter();
@@ -15,13 +16,13 @@ const std::vector<Link> &MatrixModelStructure::getLinks() const
 {
     static std::vector<Link> links;
     links.clear();
-    for (size_t i = 0; i < _adjMatrix.get_rows(); ++i)
+    for (size_t i = 0; i < _adjMatrix.get_rows(); i++)
     {
-        for (size_t j = 0; j < _adjMatrix.get_cols(); ++j)
+        for (size_t j = 0; j < _adjMatrix.get_cols(); j++)
         {
-            if (_adjMatrix[i][j])
+            if (_adjMatrix[i][j] != 0)
             {
-                links.emplace_back(i, j);
+                links.emplace_back(i+1, j+1);
             }
         }
     }
@@ -39,12 +40,25 @@ void MatrixModelStructure::addVertex(const Vertex &vertex)
     // Update adjacency matrix to add new row and column
     size_t newSize = _adjMatrix.get_rows() + 1;
     _adjMatrix.resize(newSize, newSize);
+
+    for (size_t i = 0; i < newSize; ++i)
+    {
+        _adjMatrix[i][newSize - 1] = 0;
+        _adjMatrix[newSize - 1][i] = 0;
+    }
+
     updateCenter();
 }
 
 void MatrixModelStructure::addLink(const Link &link)
 {
-    _adjMatrix[link.getFirst()][link.getSecond()] = 1;
+    size_t first = link.getFirst();
+    size_t second = link.getSecond();
+
+    if (first <= _adjMatrix.get_rows() && second <= _adjMatrix.get_cols())
+    {
+        _adjMatrix[first - 1][second - 1] = 1;
+    }
 }
 
 void MatrixModelStructure::updateCenter()

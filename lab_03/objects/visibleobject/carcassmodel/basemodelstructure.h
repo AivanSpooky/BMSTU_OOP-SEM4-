@@ -7,6 +7,12 @@
 #include "link.h"
 #include "matrix.h"
 
+enum ModelStructureType
+{
+    DEFAULT,
+    MATRIX
+};
+
 class BaseModelStructure
 {
 public:

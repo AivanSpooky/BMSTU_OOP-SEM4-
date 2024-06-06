@@ -11,7 +11,7 @@ class BaseModelBuilder : public BaseBuilder
 {
 public:
     BaseModelBuilder() = default;
-    explicit BaseModelBuilder(std::shared_ptr<FileCarcassModelReader> &reader);
+    explicit BaseModelBuilder(std::shared_ptr<BaseCarcassModelReader> &reader);
     virtual ~BaseModelBuilder() = default;
 
     virtual void build() override = 0;
@@ -27,7 +27,7 @@ public:
 
     std::shared_ptr<BaseCarcassModelReader> _reader;
 protected:
-    std::shared_ptr<ModelStructure> _model;
+    std::shared_ptr<BaseModelStructure> _model;
 
 };
 

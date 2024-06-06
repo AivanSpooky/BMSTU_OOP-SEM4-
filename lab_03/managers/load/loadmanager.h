@@ -18,7 +18,7 @@ public:
 
     ~LoadManager() = default;
 
-    std::shared_ptr<Object> load(std::string &name);
+    std::shared_ptr<Object> load(std::string &name, ModelStructureType impl);
     std::shared_ptr<Scene> loadScene(std::string &name);
     void setModerator(std::shared_ptr<BaseLoadModerator> moderator);
     void setSceneModerator(std::shared_ptr<SceneLoadModerator> moderator);

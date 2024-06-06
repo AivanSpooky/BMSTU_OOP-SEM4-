@@ -143,12 +143,12 @@ bool DeleteModel::canUndo()
 
 
 
-LoadModel::LoadModel(const ID &id, std::string &fileName) :
-    _fileName(fileName), _id(id) { }
+LoadModel::LoadModel(const ID &id, std::string &fileName, ModelStructureType impl) :
+    _fileName(fileName), _id(id), _impl(impl) { }
 
 void LoadModel::execute()
 {
-    auto model = _loadManager->load(_fileName);
+    auto model = _loadManager->load(_fileName, _impl);
     (*_id) = _scene->addObject(model);
 }
 

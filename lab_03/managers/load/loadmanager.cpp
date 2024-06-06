@@ -2,8 +2,9 @@
 
 #include <QDebug>
 
-std::shared_ptr<Object> LoadManager::load(std::string &name)
+std::shared_ptr<Object> LoadManager::load(std::string &name, ModelStructureType impl)
 {
+    _moderator->change_impl(impl);
     return _moderator->load(name);
 }
 

@@ -96,8 +96,8 @@ public:
     void delete_row(size_t pos);
     void delete_col(size_t pos);
 
-    // size_t get_rows() const;
-    // size_t get_cols() const;
+    // size_t get_rows() const noexcept;
+    // size_t get_cols() const noexcept;
 
     MatrixRow &operator[](size_t row);
     const MatrixRow &operator[](size_t row) const;

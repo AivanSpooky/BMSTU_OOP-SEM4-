@@ -1,19 +1,19 @@
-#include "modelbuilder.h"
+#include "matrixmodelbuilder.h"
 
-ModelBuilder::ModelBuilder(std::shared_ptr<BaseCarcassModelReader> reader)
+MatrixModelBuilder::MatrixModelBuilder(std::shared_ptr<BaseCarcassModelReader> reader)
 {
     _reader = reader;
     _vertexNum = 0;
 }
 
-void ModelBuilder::build()
+void MatrixModelBuilder::build()
 {
-    _model = std::make_shared<ModelStructure>(); /*!!*/
-    qDebug() << "DEFAULT IMPLEMENTATION";
+    _model = std::make_shared<MatrixModelStructure>(); /*!!*/
+    qDebug() << "MATRIX IMPLEMENTATION";
 }
 
 
-void ModelBuilder::buildVertex(const Vertex &vertex)
+void MatrixModelBuilder::buildVertex(const Vertex &vertex)
 {
     if (!isBuild()) { }
 
@@ -21,14 +21,14 @@ void ModelBuilder::buildVertex(const Vertex &vertex)
 }
 
 
-void ModelBuilder::buildLink(const Link &link)
+void MatrixModelBuilder::buildLink(const Link &link)
 {
     if (!isBuild()) { }
 
     _model->addLink(link);
 }
 
-void ModelBuilder::buildVertexes()
+void MatrixModelBuilder::buildVertexes()
 {
     std::vector<Vertex> vertexes = _reader->readVertexes();
     _vertexNum = vertexes.size();
@@ -36,7 +36,7 @@ void ModelBuilder::buildVertexes()
         buildVertex(vertexes[i]);
 }
 
-void ModelBuilder::buildLinks()
+void MatrixModelBuilder::buildLinks()
 {
     std::vector<Link> links = _reader->readLinks(_vertexNum);
     int linksNum = links.size();
@@ -48,22 +48,22 @@ void ModelBuilder::buildLinks()
 
 
 
-bool ModelBuilder::isBuild() const
+bool MatrixModelBuilder::isBuild() const
 {
     return nullptr != _model;
 }
 
-std::shared_ptr<CarcassModel> ModelBuilder::get()
+std::shared_ptr<CarcassModel> MatrixModelBuilder::get()
 {
     return std::make_shared<CarcassModel>(CarcassModel(_model));
 }
 
-void ModelBuilder::openFile(std::string& fileName)
+void MatrixModelBuilder::openFile(std::string& fileName)
 {
     _reader->open(fileName);
 }
 
-void ModelBuilder::closeFile()
+void MatrixModelBuilder::closeFile()
 {
     _reader->close();
 }

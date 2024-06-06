@@ -14,6 +14,7 @@
 #include "scenecommand.h"
 #include "exceptions.h"
 #include "basedrawer.h"
+#include "basemodelstructure.h"
 #include "drawerfactorysolution.h"
 #include "qtdrawerfactory.h"
 #include "facade.h"
@@ -65,6 +66,8 @@ private slots:
 
     void on_undoLastAction_clicked();
 
+    void on_checkBox_stateChanged(int arg1);
+
 protected:
     void setupScene();
     void updateScene();
@@ -80,5 +83,6 @@ private:
     std::vector<std::size_t> _models;
     std::vector<std::size_t> _cameras;
     std::size_t _camInd;
+    ModelStructureType checkBoxState;
 };
 #endif // MAINWINDOW_H

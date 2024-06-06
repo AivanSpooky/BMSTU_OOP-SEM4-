@@ -5,12 +5,13 @@
 #include "vertex.h"
 #include "basemodelstructure.h"
 #include "matrix.h"
+#include "link.h"
 
 class MatrixModelStructure : public BaseModelStructure
 {
 public:
     MatrixModelStructure() = default;
-    MatrixModelStructure(const std::vector<Vertex> &vertexes, const Matrix<int> &adjMatrix);
+    MatrixModelStructure(const std::vector<Vertex> &vertexes, const Matrix<double> &adjMatrix);
 
     ~MatrixModelStructure() override = default;
 
@@ -30,7 +31,7 @@ public:
 private:
     Vertex _center;
     std::vector<Vertex> _vertexes;
-    Matrix<int> _adjMatrix;
+    Matrix<double> _adjMatrix;
 
     void updateAdjMatrix();
 };

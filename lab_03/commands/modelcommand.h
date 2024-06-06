@@ -103,7 +103,7 @@ private:
 class LoadModel : public ModelCommand
 {
 public:
-    LoadModel(const ID &id, std::string &fileName);
+    LoadModel(const ID &id, std::string &fileName, ModelStructureType impl);
 
     virtual void execute() override;
     virtual void undo() override;
@@ -114,6 +114,7 @@ public:
 private:
     std::string _fileName;
     ID _id;
+    ModelStructureType _impl;
 };
 
 #endif //MODELCOMMAND_H

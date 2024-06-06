@@ -11,6 +11,7 @@ public:
     ~CameraLoadModerator() = default;
 
     std::shared_ptr<Object> load(std::string &fileName) override;
+    void change_impl(ModelStructureType impl);
 
 private:
     std::shared_ptr<BaseCameraBuilder> _builder;
